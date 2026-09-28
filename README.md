@@ -58,6 +58,8 @@
 2. 在对话里上传头像并说"用红笔批注头像技能"即可触发
 3. 完整的规则、提示词骨架都写在 [`annotate-avatar-in-red/SKILL.md`](annotate-avatar-in-red/SKILL.md) 里，可以直接改成自己喜欢的联想风格（比如把"食物"换成"星座""网络热梗"等）
 
+`SKILL.md` 本身不绑定任何一家模型的工具名，调用的是"你平台自带的图片生成能力"，所以同一份技能文件在 Claude、ChatGPT 等支持 Skills / 看图生图的平台上都能直接用；`agents/openai.yaml` 只是额外提供的 ChatGPT 自定义 GPT 专属适配，非必需。
+
 ## 目录结构
 
 ```
