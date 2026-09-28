@@ -1,0 +1,13 @@
+interface:
+  display_name: 头像红笔批注
+  short_description: 上传头像，让红笔箭头把人物各部位批注成有趣的食物名称
+  default_prompt: 使用 $annotate-avatar-in-red，把我上传的头像做成书页上的红笔食物批注图。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
