@@ -9,17 +9,23 @@
 
 ---
 
+## 真实效果图
+
+下面这张是按本技能的规则、用 ChatGPT 实际生成的结果——一个戴眼镜的卡通头像被贴进维特根斯坦哲学书页，红笔箭头把辫子认成"糖葫芦""山楂糕"，眼睛认成"黑珍珠"，脸颊认成"蜜桃大福"，嘴认成"烤肠"，手认成"卤猪蹄"：
+
+<p align="center">
+  <img src="annotate-avatar-in-red/assets/example-output-01.png" width="55%" alt="真实生成效果：卡通头像被红笔批注成食物" />
+</p>
+
 ## 效果参考（灵感风格）
 
-以下三张图是本技能追求复刻的**版式与手写批注风格**，来自 [`annotate-avatar-in-red/assets/`](annotate-avatar-in-red/assets)：
+以下三张图是本技能设计时参考的**版式与手写批注风格**（原创，来自 [`annotate-avatar-in-red/assets/`](annotate-avatar-in-red/assets)）：
 
 <p align="center">
   <img src="annotate-avatar-in-red/assets/reference-01.jpg" width="30%" alt="风格参考1：英文哲学书页" />
   <img src="annotate-avatar-in-red/assets/reference-02.jpg" width="30%" alt="风格参考2：粉色卡通头像" />
   <img src="annotate-avatar-in-red/assets/reference-03.jpg" width="30%" alt="风格参考3：中文论文书页" />
 </p>
-
-> 这三张是"要达到什么效果"的灵感参考图，不是本技能的实际生成结果。**强烈建议你用自己的头像跑一遍、把真实生成效果截图替换到这里**——真实的"我的头像变成菜单"对比图，传播效果远好于风格参考图。
 
 ## 这是什么 / 怎么玩
 
@@ -87,7 +93,7 @@ annotate-avatar-in-red/
 
 欢迎提 Issue / PR，尤其欢迎：
 
-- 补充你自己生成的真实效果图（替换上面的风格参考图）
+- 补充更多真实生成效果图（不同头像类型：真人、动物、游戏角色……）
 - 适配其他平台（Gemini、豆包等）的对应 prompt
 - 多语言版本的批注风格
 
